@@ -9,6 +9,7 @@ sed -i "s/__CONTAINER__/${containername}/g" docker-compose.yml
 sed -i "s/__DB_PASSWORD_REPLACE_ME__/${password}/g" docker-compose.yml
 
 rm setup.sh
-rm -r .git
+rm README.md
+rm -rf .git
 
 echo "Created"

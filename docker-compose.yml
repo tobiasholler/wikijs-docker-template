@@ -7,7 +7,7 @@ services:
       - db
     environment:
       DB_TYPE: postgres
-      DB_HOST: wikijs_db
+      DB_HOST: db
       DB_PORT: 5432
       DB_USER: wikijs
       DB_PASS: __DB_PASSWORD_REPLACE_ME__
